@@ -1,0 +1,33 @@
+backend:
+  name: github
+  repo: GIANNIS-AGGELIS/site-gr
+  branch: netlify-test
+
+media_folder: "_images/uploads"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "all_collections/_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+
+      - label: "Reference"
+        name: "ref"
+        widget: "string"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Excerpt"
+        name: "excerpt"
+        widget: "string"
+      - label: "Tags"
+        name: "tags"
+        widget: "string"
+      - label: "Categories"
+        name: "categories"
+        widget: "string"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
