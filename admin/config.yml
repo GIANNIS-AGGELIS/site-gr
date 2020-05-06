@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
-  # repo: GIANNIS-AGGELIS/site-gr
-  branch: master
+  repo: GIANNIS-AGGELIS/site-gr
+  branch: netlify-test
 
 media_folder: "_images/uploads"
 public_folder: "uploads"
