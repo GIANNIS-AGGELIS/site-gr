@@ -32,3 +32,4 @@ collections:
       - {label: "Partners", name: "partners", widget: "list", required: false}
       - {label: "Web url", name: "web", widget: "string", required:  false}
       - {label: "Body", name: "body", widget: "markdown"}
+      
